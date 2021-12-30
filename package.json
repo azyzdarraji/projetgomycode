@@ -1,0 +1,17 @@
+{
+  "name": "PROJETGOMYCODE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^6.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"cd backend && npx nodemon server.js \" \"cd frontend && npm start\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
